@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stalin</title>
+    <link rel="stylesheet" href="css/bootstrap-materia.min.css">
+    <link rel="stylesheet" href="css/baguetteBox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+      <!-- Showcase -->
+      <section id="showcase" class="secondary-showcase">
+        
+
+        <div class="secondary-overlay">
+            <div class="secondary-btn-portfolio">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-warning btn-sm text-dark" data-toggle="modal" data-target="#portfolio-btn">&#9776; &#160; Portfolio</button>
+            </div>
+        </div>
+      </section>
+
+
+
+      
+
+        
+
+        <!-- main section -->
+        <section id="main" class="main">
+            <div class="container">
+                <h1 class="headline mb-5">Web Design</h1>
+
+                <!-- 1 -->
+                <div class="card p-2 frame gallery mb-5">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <a href="./Portfolio/Web Design/1/v2.1.png">
+                                <img src="./Portfolio/Web Design/1/v2.1.png" class="img-fluid" alt="First image">
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <a href="./Portfolio/Web Design/2/v1.1.png">
+                                <img src="./Portfolio/Web Design/2/v1.1.png" class="img-fluid" alt="First image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        
+
+        <!-- Portfolio -->
+      <section class="portfolio" id="portfolio">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-warning text-dark" data-toggle="modal" data-target="#portfolio-btn">View My Portfolio</button>
+      </section>
+
+      <!-- Modal -->
+        <div class="modal fade" id="portfolio-btn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Categories</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                        <div class="modal-body">
+                            <!-- Modal body -->
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                                <a href="index.html"><strong>Home</strong></a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="portrait-retouching.html"><strong>Portrait Retouching</strong></a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="./Skin-and-color-correction.html"><strong>Skin & Color Correction</strong></a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="./cutout.html"><strong>Background Removal</strong></a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="./color-change.html"><strong>Color Change</strong></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                                <a href="./webdesign.html"><strong>Web Design</strong></a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="./object-removal.html"><strong>Object Removal</strong></a>
+                                            </li>
+                                            <li class="list-group-item">Coming Soon</li>
+                                            <li class="list-group-item">Coming Soon</li>
+                                            <li class="list-group-item">Coming Soon</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/baguetteBox.min.js"></script>
+    <script>
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+        })
+
+        baguetteBox.run('.gallery', {
+            animation: 'fadeIn',
+            noScrollbars: true
+        })
+
+        // baguetteBox.run('.gallery');
+    </script>
+</body>
+</html>

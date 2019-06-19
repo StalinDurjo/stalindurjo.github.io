@@ -1,0 +1,205 @@
+*{
+    font-family: 'montserrat' !important;
+    /* font-family: 'raleway'; */
+    color: #000;
+}
+
+body{
+    position: relative;
+    overflow-x: hidden;
+}
+.show-alert{
+    display: none;
+    z-index: 900;
+}
+.btn{
+    font-size: 12px;
+    border-radius: 2px;
+    font-family: 'montserrat';
+    font-weight: 700;
+}
+
+.list-group-item span{
+    font-weight: 500 !important;
+}
+
+.paragraph{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.nav-link{
+    font-family: 'montserrat';
+    font-weight: 500;
+}
+
+.navbar{
+    background: rgba(0, 0, 0, 0) !important;
+    box-shadow: none;
+    position: absolute;
+    top: 2%;
+    right: 0%;
+    /* margin-top: 50px; */
+    z-index: 100;
+}
+
+/* Showcase */
+.showcase{
+    width: 100%;
+    height: 500px;
+    background: url('../images/andyone-26591-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.btn-portfolio{
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    z-index: 200;
+}
+
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay *{
+    color: ghostwhite;
+}
+
+.profile-position{
+    position: absolute;
+    top: 18%;
+}
+
+.profile-card{
+    height: 500px;
+    width: 400px;
+    position: relative;
+    top: 10%;
+}
+
+.profile-image{
+    width: 100%;
+    height: 480px;
+}
+
+.headline{
+    font-weight: 800;
+}
+
+.profile-content{
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+
+
+/* ######################## */
+/* About */
+/* ######################## */
+
+.about{
+    margin-top: 200px;
+}
+
+
+
+/* ######################## */
+/* Service */
+/* ######################## */
+.service{
+    background: #000;
+    text-align: center;
+    padding: 100px 0 100px 0;
+}
+
+.service *{
+    color: ghostwhite !important;
+}
+
+
+
+/* ######################## */
+/* Portfolio */
+/* ######################## */
+.portfolio{
+    padding: 100px 0 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* ########################################################################################################### */
+
+/* Showcase */
+.secondary-showcase{
+    width: 100%;
+    height: 300px;
+    background: url('../images/andyone-26591-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.secondary-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+/* main */
+.main{
+    padding: 100px 0 100px 0;
+}
+
+.frame{
+    position: relative;
+    overflow: hidden;
+}
+.frame-text{
+    position: absolute;
+    width: 100%;
+    background: #f4f4f4;
+    z-index: 100;
+    height: 40px;
+    bottom: 0;
+    left: 0;
+
+    padding: 12px;
+}
+
+
+
+@media screen and (max-width: 1020px){
+    .show-alert{
+        display: block;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100px;
+        background: rgb(255, 255, 255);
+        padding: 50px;
+        z-index: 900;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
