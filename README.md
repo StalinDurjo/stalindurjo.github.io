@@ -1,1 +1,1 @@
-# stalindurjo.github.io
+https://stalindurjo.github.io/
